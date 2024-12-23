@@ -4,11 +4,11 @@ import { VitePWA } from "vite-plugin-pwa";
 
 const pwaConfigs = {
   manifest: {
-    name: "سبزلرن",
-    short_name: "سبزلرن",
-    description: "آکادمی آموزش برنامه نویسی",
-    background_color: "#41b300",
-    theme_color: "#41b300",
+    name: "مدرسه آموزش برنامه نویسی",
+    short_name: "مدرسه آموزش برنامه نویسی",
+    description: "مدرسه آموزش برنامه نویسی",
+    background_color: "#0969DA",
+    theme_color: "#0969DA",
     display: "standalone",
     orientation: "portrait",
     scope: "/",
