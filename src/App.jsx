@@ -37,7 +37,22 @@ function App() {
         .catch((err) => console.log("Error=>", err));
     });
   }
+  const addCourse = async (event) => {
+    event.preventDefault();
 
+    const res = await fetch("https://pwa-cms.iran.liara.run/api/courses", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ title }),
+    });
+
+    if (res.status === 201) {
+      setIsShowModel(false);
+    }
+    console.log(res);
+  };
 
   return (
     <>
@@ -154,7 +169,7 @@ function App() {
             {/* Courses List  */}
             <ul className="courses-list">
               {courses.map((course) => (
-                <li key={course.id} className="courses-item">
+                <li key={course._id} className="courses-item">
                   <div className="courses-img-title">
                     <img
                       src="/images/courses/PWA.jpg"
