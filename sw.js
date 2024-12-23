@@ -16,8 +16,6 @@ const activeCaches = {
 };
 
 self.addEventListener("install", (event) => {
-  console.log("Service Worker Installed Successfully :))");
-
   event.waitUntil(
     caches.open(activeCaches["static"]).then((cache) => {
       cache.addAll([
@@ -33,10 +31,7 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  console.log("Service Worker Activated Successfully :))");
-
   const activeCacheNames = Object.values(activeCaches);
-
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(

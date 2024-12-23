@@ -37,22 +37,22 @@ function App() {
         .catch((err) => console.log("Error=>", err));
     });
   }
-  const addCourse = async (event) => {
-    event.preventDefault();
+  // const addCourse = async (event) => {
+  //   event.preventDefault();
 
-    const res = await fetch("https://pwa-cms.iran.liara.run/api/courses", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ title }),
-    });
+  //   const res = await fetch("https://pwa-cms.iran.liara.run/api/courses", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify({ title }),
+  //   });
 
-    if (res.status === 201) {
-      setIsShowModel(false);
-    }
-    console.log(res);
-  };
+  //   if (res.status === 201) {
+  //     setIsShowModel(false);
+  //   }
+  //   console.log(res);
+  // };
 
   return (
     <>
@@ -84,7 +84,7 @@ function App() {
 
             <button
               type="submit"
-              onClick={addCourse}
+              // onClick={addCourse}
               className="add-course-btn update-btn btn"
             >
               ایجاد دوره
