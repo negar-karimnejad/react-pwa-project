@@ -5,9 +5,9 @@
 <p align="center">To support me, give star⭐ to this repository please.
 I appreciate your support in advance. ❤</p>
 
+<img src="public/images/Screenshot (297).png"/>
 <img src="public/images/Screenshot (295).png"/>
 
-<img src="public/images/Screenshot (297).png"/>
 
 
 
@@ -16,10 +16,10 @@ I appreciate your support in advance. ❤</p>
 ### <p align="center">🔧Technologies:</p>
 <div align="center" >
   
-![react](https://img.shields.io/badge/react-8b5cf6?style=for-the-badge&logo=react&logoColor=white)
-![pwa](https://img.shields.io/badge/pwa-8b5cf6?style=for-the-badge&logo=pwa&logoColor=white)
-![vite](https://img.shields.io/badge/vite-8b5cf6?style=for-the-badge&logo=vite&logoColor=white)
-![npm](https://img.shields.io/badge/npm-8b5cf6?style=for-the-badge&logo=npm&logoColor=white)
+![react](https://img.shields.io/badge/react-2ca629?style=for-the-badge&logo=react&logoColor=white)
+![pwa](https://img.shields.io/badge/pwa-2ca629?style=for-the-badge&logo=pwa&logoColor=white)
+![vite](https://img.shields.io/badge/vite-2ca629?style=for-the-badge&logo=vite&logoColor=white)
+![npm](https://img.shields.io/badge/npm-2ca629?style=for-the-badge&logo=npm&logoColor=white)
   
 </div>
 
