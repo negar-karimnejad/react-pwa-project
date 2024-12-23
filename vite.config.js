@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 const pwaConfigs = {
+  injectRegister: "inline",
   manifest: {
     name: "مدرسه آموزش برنامه نویسی",
     short_name: "مدرسه آموزش برنامه نویسی",
